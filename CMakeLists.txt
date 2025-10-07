@@ -4,6 +4,9 @@ project(CHIP8emu)
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+set(SDL_BUILD_TESTS OFF)
+set(SDL_BUILD_DOCS OFF)
+
 add_subdirectory(ext/SDL)
 add_subdirectory(src)
 
